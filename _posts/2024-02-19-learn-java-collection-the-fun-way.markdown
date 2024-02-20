@@ -18,7 +18,7 @@ Imagine that you're an aficionado of cars who owns a collection of car toys in y
 - Do you want to ensure the first car in is also the first car out?
 
 After some research, you found this general guide.
-![Collection Guide]({{site.baseurl}}/assets/img/2024-02-19/collection-guide.jpeg)
+![Collection Guide]({{site.baseurl}}/assets/img/2024-02-19/collection-guide.png)
 
 ## Collection or Collections
 
