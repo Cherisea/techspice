@@ -20,6 +20,8 @@ Imagine that you're an aficionado of cars who owns a collection of car toys in y
 
 Having picked a name for your valuable assortment of cars, you run into another problem, "What kind of collection should I use to sort them? After all, collection is an interface that doesn't offer any specific guidance on how I should arrange my cars." Maybe employing a list interface if you have two Porsche 911 that are exactly the same?
 
+![List]({{site.baseurl}}/assets/img/list.jpeg)
+
 ### ArrayList
 
 You don't want to hear your mom complaining again about your cars strewn in the kitchen. Plus, she "accidentically" broke one of your favorite Farrari on a horrrible morning (you know she did that as a warning, although she claimed it was an accident). So, you resolve to allocate an area in your room exclusively for your cars. But what if you run out of space in that area when you bring in more cars later on?
