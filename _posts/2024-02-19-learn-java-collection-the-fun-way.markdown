@@ -28,8 +28,7 @@ It looks overwhelming, so you want to dig a little deeper.
 
 ![Collections Toolbox]({{site.baseurl}}/assets/img/2024-02-19/collections.jpeg)
 
-> [!TIP]
-> Collection is the root interface of Java collection framework, while Collections is a utility class consisting of static methods that operate on specific implementations of Collection.
+> [!TIP] > **Collection** is the root interface of Java collection framework, while **Collections** is a utility class consisting of static methods that operate on specific implementations of Collection.
 
 ## List, Set, Queue or Map
 
@@ -52,3 +51,25 @@ Instead of a fixed-size ArrayList, you come up with an ingenious idea, "Wouldn't
 ### Vector
 
 Compared to an ArrayList, a vector allows you to double your designated area by default every time you need to resize. Besides, if you ask your friend Tom to work on this together, his work will be synchronized on your end as well. Therefore, you never have to worry about being left out of the loop. "I'll make this plan A."
+
+![Set]({{site.baseurl}}/assets/img/2024-02-19/set.jpeg)
+
+After much deliberation, you realize that spending extra bucks on the same models is just not worth it. You want a collection that covers as diverse range of cars as possible. But which set is the most fittig choice?
+
+### TreeSet
+
+Treeset sorts your cars using natural ordering or a custom comparator at creation time, giving you the opportunity to show off your cars to friends by their price or year of production.
+
+"My friends are gonna be so jealous of me", you couldn't help laughing at the thought of that. Then, the grin on your face suddenly freezes, "It would take me forever to find a specific car if my friend ever requests." You decide to ditch this idea cause you don't want to embrass yourself in front of your friends.
+
+### HashSet
+
+"This one allows me to readily retrieve a car my friends ask for, but it can't guarantee that my cars are sorted. What's the fun of that?" You seems to run into a pickle until another option comes to your attention.
+
+### LinkedHashSet
+
+While maintaining the order in which your cars are inserted into it, LinkedHashSet isn't capable of offering the same sorting functionality as that of TreeSet. You could fetch your cars in the same order they are added to your collection and locate any one fast enough to amaze your friends, but you can't be sure they are sorted by a certain standard. "Guess I'll just keep looking", you heaved a sigh.
+
+> [!TIP] > **LinkedHashSet** is an implementation of set interface with **Hash table** and **linked list**, ensuring that iteration order is consistant with its insertion order. It basically sits somewhere between **HashSet** and **TreeSet** in terms of performance of sorting.
+
+![Queue]({{site.baseurl}}/assets/img/2024-02-19/queue.jpeg)
