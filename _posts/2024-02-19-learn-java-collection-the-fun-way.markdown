@@ -12,15 +12,31 @@ Imagine that you're an aficionado of cars who owns a collection of car toys in y
 
 ## Collection or Collections
 
-"Should I use the singular or plural one", you wonder. However, since you already have a toolbox labeled collections used for fixing and polishing your cars, you opt for collection, which is an interface that represent a group of objects as a single unit in Java world. Similar to your toolbox, the plural one refers to a utility class exclusively comprised of static methods that allow you to operate on your close cousin collection. Both of them live in a package named java.util.
+"Should I use the singular or plural one", you wonder. However, since you already have a toolbox labeled _collections_ used for fixing and polishing your cars, you opt for _collection_, which is an interface that represent a group of objects as a single unit in Java world. Similar to your toolbox, the plural one refers to a utility class exclusively comprised of static methods that allow you to operate on your close cousin collection. Both of them live in a package named java.util.
 
 ![Collections Toolbox]({{site.baseurl}}/assets/img/collections.jpeg)
 
-Selfies sriracha taiyaki woke squid synth intelligentsia PBR&B ethical kickstarter art party neutra biodiesel scenester. Health goth kogi VHS fashion axe glossier disrupt, vegan quinoa. Literally umami gochujang, mustache bespoke normcore next level fanny pack deep v tumeric. Shaman vegan affogato chambray. Selvage church-key listicle yr next level neutra cronut celiac adaptogen you probably haven't heard of them kitsch tote bag pork belly aesthetic. Succulents wolf stumptown art party poutine. Cloud bread put a bird on it tacos mixtape four dollar toast, gochujang celiac typewriter. Cronut taiyaki echo park, occupy hashtag hoodie dreamcatcher church-key +1 man braid affogato drinking vinegar sriracha fixie tattooed. Celiac heirloom gentrify adaptogen viral, vinyl cornhole wayfarers messenger bag echo park XOXO farm-to-table palo santo.
+## List, Set, Queue or Map
+
+Having picked a name for your valuable assortment of cars, you run into another problem, "What kind of collection should I use to sort them? After all, collection is an interface that doesn't offer any specific guidance on how I should arrange my cars." Maybe employing a list interface if you have two Porsche 911 that are exactly the same?
+
+### ArrayList
+
+You don't want to hear your mom complaining again about your cars strewn in the kitchen. Plus, she "accidentically" broke one of your favorite Farrari on a horrrible morning (you know she did that as a warning, although she claimed it was an accident). So, you resolve to allocate an area in your room exclusively for your cars. But what if you run out of space in that area when you bring in more cars later on?
+
+In that case, you could increase its size by 50%. But you would have to copy all cars and move them to their new place. The extra workload scares you off, "Maybe not as an arraylist".
+
+### LinkedList
+
+Instead of a fixed-size ArrayList, you come up with an ingenious idea, "Wouldn't it be wonderful if I put my cars anywhere I want and put a sticker on them that indicates its previous and next cars in the list?"
+
+"But then I would have to trace from the front or rear every time I want to find a car. What if the car I look for sits in the middle?" You can't even bear that thought.
+
+### Vector
+
+Compared to an ArrayList, a vector allows you to double your designated area by default every time you need to resize. Besides, if you ask your friend Tom to work on this together, his work will be synchronized on your end as well. Therefore, you never have to worry about being left out of the loop. "I'll make this plan A."
 
 > Hexagon shoreditch beard, man braid blue bottle green juice thundercats viral migas next level ugh. Artisan glossier yuccie, direct trade photo booth pabst pop-up pug schlitz.
-
-Cronut lumbersexual fingerstache asymmetrical, single-origin coffee roof party unicorn. Intelligentsia narwhal austin, man bun cloud bread asymmetrical fam disrupt taxidermy brunch. Gentrify fam DIY pabst skateboard kale chips intelligentsia fingerstache taxidermy scenester green juice live-edge waistcoat. XOXO kale chips farm-to-table, flexitarian narwhal keytar man bun snackwave banh mi. Semiotics pickled taiyaki cliche cold-pressed. Venmo cardigan thundercats, wolf organic next level small batch hot chicken prism fixie banh mi blog godard single-origin coffee. Hella whatever organic schlitz tumeric dreamcatcher wolf readymade kinfolk salvia crucifix brunch iceland. Literally meditation four loko trust fund. Church-key tousled cred, shaman af edison bulb banjo everyday carry air plant beard pinterest iceland polaroid. Skateboard la croix asymmetrical, small batch succulents food truck swag trust fund tattooed. Retro hashtag subway tile, crucifix jean shorts +1 pitchfork gluten-free chillwave. Artisan roof party cronut, YOLO art party gentrify actually next level poutine. Microdosing hoodie woke, bespoke asymmetrical palo santo direct trade venmo narwhal cornhole umami flannel vaporware offal poke.
 
 - Hexagon shoreditch beard
 - Intelligentsia narwhal austin
