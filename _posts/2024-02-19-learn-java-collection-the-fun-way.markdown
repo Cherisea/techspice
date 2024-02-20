@@ -26,6 +26,9 @@ After some research, you found this general guide.
 
 ![Collections Toolbox]({{site.baseurl}}/assets/img/2024-02-19/collections.jpeg)
 
+> [!TIP]
+> Collection is the root interface of Java collection framework, while Collections is a utility class consisting of static methods that operate on specific implementations of Collection.
+
 ## List, Set, Queue or Map
 
 Having picked a name for your valuable assortment of cars, you run into another problem, "What kind of collection should I use to sort them? After all, collection is an interface that doesn't offer any specific guidance on how I should arrange my cars." Maybe employing a list interface if you have two Porsche 911 that are exactly the same?
