@@ -10,17 +10,27 @@ tags: [Holidays, Hawaii]
 
 Imagine that you're an aficionado of cars who owns a collection of car toys in your home (I know it would be wonderful if they are real). In fact, there are so many of them that you don't even know how many you have and where they come from. So you decide to categorize them by a certain criterion using Java, but several issues immediately crop up.
 
+- Should you assign a unique label to each of your cars and store them as key, value pairs?
+- Do you have cars that're exactly the same?
+- Do you prefer fast retrieval or preditable order of iteration?
+- Would you like to preserve the order in which your cars are inserted?
+- Do you often need to add new cars to or remove existing cars from your collection?
+- Do you want to ensure the first car in is also the first car out?
+
+After some research, you found this general guide.
+![Collection Guide]({{site.baseurl}}/assets/img/2024-02-19/collection-guide.jpeg)
+
 ## Collection or Collections
 
-"Should I use the singular or plural one", you wonder. However, since you already have a toolbox labeled _collections_ used for fixing and polishing your cars, you opt for _collection_, which is an interface that represent a group of objects as a single unit in Java world. Similar to your toolbox, the plural one refers to a utility class exclusively comprised of static methods that allow you to operate on your close cousin collection. Both of them live in a package named java.util.
+"Should I use the singular or plural one", you wonder. However, since you already have a toolbox labeled _collections_ used for fixing and polishing your cars, you opt for _collection_, which is an interface that represent a group of objects as a single unit in Java world. Similar to your toolbox, the plural one refers to a utility class exclusively comprised of static methods that allow you to operate on your close cousin collection. Both of them live in a package named _java.util_.
 
-![Collections Toolbox]({{site.baseurl}}/assets/img/collections.jpeg)
+![Collections Toolbox]({{site.baseurl}}/assets/img/2024-02-19/collections.jpeg)
 
 ## List, Set, Queue or Map
 
 Having picked a name for your valuable assortment of cars, you run into another problem, "What kind of collection should I use to sort them? After all, collection is an interface that doesn't offer any specific guidance on how I should arrange my cars." Maybe employing a list interface if you have two Porsche 911 that are exactly the same?
 
-![List]({{site.baseurl}}/assets/img/list.jpeg)
+![List]({{site.baseurl}}/assets/img/2024-02-19/list.jpeg)
 
 ### ArrayList
 
