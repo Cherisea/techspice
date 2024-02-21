@@ -64,12 +64,36 @@ Treeset sorts your cars using natural ordering or a custom comparator at creatio
 
 ### HashSet
 
-"This one allows me to readily retrieve a car my friends ask for, but it can't guarantee that my cars are sorted. What's the fun of that?" You seems to run into a pickle until another option comes to your attention.
+"This one allows me to readily retrieve a car my friends ask for, but it can't guarantee that my cars are sorted. What's the fun of that?" You seems to run into a pickle until another option grabs your attention.
 
 ### LinkedHashSet
 
 While maintaining the order in which your cars are inserted into it, LinkedHashSet isn't capable of offering the same sorting functionality as that of TreeSet. You could fetch your cars in the same order they are added to your collection and locate any one fast enough to amaze your friends, but you can't be sure they are sorted by a certain standard. "Guess I'll just keep looking", you heaved a sigh.
 
-> [!TIP] > **LinkedHashSet** is an implementation of set interface with **Hash table** and **linked list**, ensuring that iteration order is consistant with its insertion order. It basically sits somewhere between **HashSet** and **TreeSet** in terms of performance of sorting.
+> [!TIP] > **LinkedHashSet** is an implementation of set interface with **Hash table** and **linked list**, ensuring that iteration order is consistant with its insertion order. It basically sits somewhere between **HashSet** and **TreeSet** in terms of performance and sorting.
 
 ![Queue]({{site.baseurl}}/assets/img/2024-02-19/queue.jpeg)
+
+After a day's work, you feel like you have got nowhere on your car collection sorting project. Out of deperation, you reached out to your friend Tom for help, tasking him with passing cars to you while you figure out how they should be sorted. To ensure fairness, you want the cars that are handed down to you first to be processed first.
+
+### PriorityQueue
+
+While this one enables you to sort your cars based on natural ordering or a coustom order defined by a comparator, it doesn't preserve the original insertion order. "That's not fair", you thought to yourself.
+
+### LinkedList
+
+By contrast, ListedList maintains the order in which cars are inserted, but you can't sort them. It seems like there is no perfect collection to sort your car collection.
+
+![Map]({{site.baseurl}}/assets/img/2024-02-19/map.jpeg)
+
+"Maybe I should just leave them the way they are. This is no suitable solutions to this." You say to Tom, shrugging your shoulders.
+
+"Isn't there another type of collection you haven't tried yet? Something called map?" Tom remind you.
+
+"But it doesn't extend from the collection interface, which means it's an outsider. I don't think collection would be happy with that." You caution.
+
+"How can you say that? Map is still considered part of collection. It's family." Tom retort, feeling indignant for map.
+
+"Okay, but that means it shares all the characteristics of other members. It's either fast, sorted or consistant with insertion order, but you can never get all of them at once. Not to mention the synchronization issue. Why don't we just have a great time and forget about sorting?"
+
+"Yeah, I guess you're right." Tom isn't a fan of drudgery, so he happily complies.
