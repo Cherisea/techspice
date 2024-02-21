@@ -28,9 +28,7 @@ It looks overwhelming, so you want to dig a little deeper.
 
 ![Collections Toolbox]({{site.baseurl}}/assets/img/2024-02-19/collections.jpeg)
 
-> **TIP**
-
-> **Collection** is the root interface of Java collection framework, while **Collections** is a utility class consisting of static methods that operate on specific implementations of Collection.
+> [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) is the root interface of Java collection framework, while [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) is a utility class consisting of static methods that operate on specific implementations of Collection.
 
 ## List, Set, Queue or Map
 
@@ -71,8 +69,6 @@ Treeset sorts your cars using natural ordering or a custom comparator at creatio
 ### LinkedHashSet
 
 While maintaining the order in which your cars are inserted into it, LinkedHashSet isn't capable of offering the same sorting functionality as that of TreeSet. You could fetch your cars in the same order they are added to your collection and locate any one fast enough to amaze your friends, but you can't be sure they are sorted by a certain standard. "Guess I'll just keep looking", you heaved a sigh.
-
-> [!TIP]
 
 > **LinkedHashSet** is an implementation of set interface with **Hash table** and **linked list**, ensuring that iteration order is consistant with its insertion order. It basically sits somewhere between **HashSet** and **TreeSet** in terms of performance and sorting.
 
