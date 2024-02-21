@@ -22,7 +22,7 @@ After some research, you found this general guide.
 
 It looks overwhelming, so you want to dig a little deeper.
 
-## Collection or Collections
+## **Collection or Collections**
 
 "Should I use the singular or plural one", you wonder. However, since you already have a toolbox labeled **_collections_** used for fixing and polishing your cars, you opt for **_collection_**, which is an interface that represent a group of objects as a single unit in Java world. Similar to your toolbox, the plural one refers to a utility class exclusively comprised of static methods that allow you to operate on your close cousin collection. Both of them live in a package named **_java.util_**.
 
@@ -30,7 +30,7 @@ It looks overwhelming, so you want to dig a little deeper.
 
 > [!TIP] > **Collection** is the root interface of Java collection framework, while **Collections** is a utility class consisting of static methods that operate on specific implementations of Collection.
 
-## List, Set, Queue or Map
+## **List, Set, Queue or Map**
 
 Having picked a name for your valuable assortment of cars, you run into another problem, "What kind of collection should I use to sort them? After all, collection is an interface that doesn't offer any specific guidance on how I should arrange my cars." Maybe employing a list interface if you have two Porsche 911 that are exactly the same?
 
