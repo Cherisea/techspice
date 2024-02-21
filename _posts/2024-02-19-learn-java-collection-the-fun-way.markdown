@@ -2,10 +2,10 @@
 layout: post
 title: Learn Java Collection The Fun Way
 date: 2024-02-19 16:44:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: explore the use cases of a wide array of Java collection
 img: car-collection.jpg
 fig-caption: a collection of toy cars
-tags: [Holidays, Hawaii]
+tags: [Java, Collection]
 ---
 
 Imagine that you're an aficionado of cars who owns a collection of car toys in your home (I know it would be wonderful if they are real). In fact, there are so many of them that you don't even know how many you have and where they come from. So you decide to categorize them by a certain criterion using Java, but several issues immediately crop up.
